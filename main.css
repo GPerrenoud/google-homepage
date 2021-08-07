@@ -1,8 +1,35 @@
-#navbar {
-    align-items: center;
-}
-
-.div {
+body, input, button {
     font-size: 14px;
     font-family: Roboto,arial,sans-serif;
+    color: black;
+}
+body {
+    margin: 0;
+    padding: 0;
+    min-width: 400px;
+}
+
+.navbar1 {
+    align-items: center;
+    padding: 6px;
+}
+
+.navbar2 {
+    float: right;
+}
+
+.googleImage {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 92px;
+    max-height: 290px;
+    height: calc(100% - 560px);
+    margin-top: 20%;
+}
+.googleTextbox {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
 }
